@@ -24,7 +24,6 @@ buttonMoreEl.addEventListener('click', onButtonClick);
 
 function onFormSubmit(event) {
   event.preventDefault();
-
   keyValue = inputEl.value;
 
   page = 1;
